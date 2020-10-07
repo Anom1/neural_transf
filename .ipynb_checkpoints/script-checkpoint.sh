@@ -1,0 +1,1 @@
+python neural_style.py -style_image storage/orig_img/gouache.jpg -content_image storage/orig_img/fm_both.jpg -save_iter 50 -image_size 1024 -output_image "out_fm_gouache/out.png" -model_file 'storage/models/vgg19-d01eb7cb.pth' -backend cudnn
