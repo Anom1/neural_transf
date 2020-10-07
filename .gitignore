@@ -1,5 +1,4 @@
 *.swp
-*.jpg
 *.pyc
 *.pth
 models/
