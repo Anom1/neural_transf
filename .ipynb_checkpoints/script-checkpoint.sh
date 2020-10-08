@@ -1,3 +1,3 @@
-python neural_style.py -style_image originals/real.jpg -content_image originals/fm_hand.jpg -save_iter 250 -image_size 1024 -output_image "out_fm_real/out.png" -model_file 'storage/models/vgg19-d01eb7cb.pth' -backend cudnn
+python neural_style.py -style_image originals/style_color.jpg -content_image originals/team.jpg -save_iter 250 -image_size 1024 -output_image "out_fm_team/out.png" -model_file 'storage/models/vgg19-d01eb7cb.pth' -backend cudnn
 
-python neural_style.py -style_image originals/style2.jpg -content_image originals/fm_hand.jpg -save_iter 250 -image_size 1024 -output_image "out_fm_style2/out.png" -model_file 'storage/models/vgg19-d01eb7cb.pth' -backend cudnn
+python neural_style.py -style_image originals/style_color2.jpg -content_image originals/team.jpg -save_iter 250 -image_size 1024 -output_image "out_fm_team_color/out.png" -model_file 'storage/models/vgg19-d01eb7cb.pth' -backend cudnn
